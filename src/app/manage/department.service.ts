@@ -15,7 +15,7 @@ export class DepartmentService {
   }
 
   getDepartmentInfo() {
-    return this.http.get<Department[]>('http://localhost:3000/departmentInfo');
+    return this.http.get<Department[]>('https://ngdepartmentserver.herokuapp.com/departmentInfo');
   }
 
 }
